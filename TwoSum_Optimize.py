@@ -1,4 +1,4 @@
-#leetcode first problem using 2 pointer method
+#leetcode first problem optimize O(n) solution
 
 def twoSum(nums, target):
     d = {}
@@ -9,5 +9,5 @@ def twoSum(nums, target):
         else:
             d[n] = i
 
-nums=[1,2,5,7]
-print(twoSum(nums,9))
+nums=[11,12,15,17]
+print(twoSum(nums,29))
