@@ -1,4 +1,4 @@
-#leetcode first problem optimize O(n) solution
+#leetcode first problem optimize O(n) solution expected o/p = [1,3]
 
 def twoSum(nums, target):
     d = {}
