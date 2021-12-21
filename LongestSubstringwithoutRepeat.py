@@ -1,4 +1,4 @@
-arr="abaacad"
+arr="fivestarreview"
 def LongestSubNoRepeat(arr):
     m={}
     left=0
