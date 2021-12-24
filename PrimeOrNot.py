@@ -4,7 +4,7 @@ start=datetime.now()
 n=int(input("Enter a number is prime or not "))
 
 if n>1:
-    for i in range(2,n//2):
+    for i in range(2,n//2+1):
         if n%i==0:
             print("its not prime number")
             break
