@@ -12,5 +12,5 @@ def atMostNGivenDigitSet(D, N):
 
 
 D=["1","3","5","7"]
-N=7211
+N=7000
 print(atMostNGivenDigitSet(D,N))
