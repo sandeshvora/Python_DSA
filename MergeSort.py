@@ -22,17 +22,18 @@ def MergeSort(arr):
             arr[k]=R[j]
             j+=1
             k+=1
-
-
+#code to print list
 def PrintList(arr):
     for i in range(len(arr)):
         print(arr[i],end=" ")
     print()
-arr=[11,2,4,8,9,55,3]
-print("Before sorting")
-PrintList(arr)
-print("After Sorting")
-MergeSort(arr)
-PrintList(arr)
+#Driver Code
+if __name__ == '__main__':
+    arr = [11, 2, 4, 8, 9, 55, 3]
+    print("Before sorting")
+    PrintList(arr)
+    print("After Sorting")
+    MergeSort(arr)
+    PrintList(arr)
 
 
