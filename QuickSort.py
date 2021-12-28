@@ -18,7 +18,9 @@ def Quicksort(start,end,arr):
         Quicksort(start, p - 1, arr)
         Quicksort(p + 1, end, arr)
 
+
 arr=[7,4,1,3,9,24,87,45]
+print("Before Sorting",arr)
 Quicksort(0, len(arr) - 1, arr)
-print(arr)
+print("After Sorting",arr)
 
