@@ -21,5 +21,5 @@ arr=[3,5,12]
 l=90
 r=280
 for i in range(l,r):
-    if i%arr[0]==0 and i%arr[1]==0 and i%arr[2]==0:
+    if all(i%item==0 for item in arr):
         print(i)
