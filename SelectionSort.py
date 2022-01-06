@@ -1,5 +1,4 @@
 # Selection sort code
-
 def SelectionSort(arr):
     size=len(arr)
     for i in range(size-1):
