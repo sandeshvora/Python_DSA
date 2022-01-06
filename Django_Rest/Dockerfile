@@ -1,7 +1,7 @@
 FROM python:3.8-alpine
 MAINTAINER Sandesh Vora
 
-ENV PYTHONUNMBUFFERED 1
+ENV PYTHONUNBUFFERED 1
 COPY ./requirements.txt /requirements.txt
 
 RUN pip install -r /requirements.txt
