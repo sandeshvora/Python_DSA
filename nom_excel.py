@@ -8,6 +8,10 @@ ws1 = wb1.active
 ws2 = wb2.active
 ws3 = wb3.active
 
+for i in range(1,3):
+    row1_var = ws1.cell(row=1,column=i)
+    ws3.cell(row=1,column = i).value = row1_var.value
+
 dict1 = {}
 rows1 = ws1.iter_rows(min_row=2,min_col=1)
 for i,j in rows1:

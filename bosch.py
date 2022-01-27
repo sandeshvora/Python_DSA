@@ -1,4 +1,4 @@
-#lamba_obj =lambda x:x*x
+#lamba_obj = lambda x:x*x
 #print(lamba_obj(3))
 # list1=[1,5,7,8,3,5,22]
 # list2=list1.copy()

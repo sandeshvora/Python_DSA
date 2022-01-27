@@ -44,4 +44,4 @@ heapSort(arr)
 n = len(arr)
 print("Sorted array is")
 for i in range(n):
-    print("%d" % arr[i],end=" "),
+    print("%d" % arr[i],end=" ")
