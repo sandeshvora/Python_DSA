@@ -17,6 +17,7 @@ def getMinMAx(arr: list, n: int) -> pair:
     else:
         minmax.max = arr[1]
         minmax.min = arr[0]
+
     for i in range(2,n):
         if arr[i] > minmax.max:
             minmax.max = arr[i]
