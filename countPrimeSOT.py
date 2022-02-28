@@ -11,3 +11,7 @@ def countPrimeSieveofEratothenes(n):
     return sum(isPrime)
 
 print(countPrimeSieveofEratothenes(10))
+# 0 1
+# 4 6 8
+# 9
+### 2 3 5 7

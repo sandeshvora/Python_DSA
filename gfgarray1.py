@@ -1,6 +1,6 @@
 # Reverse The Array
 
-def ReverseArray(arr,start,end):
+def ReverseArray(arr):
     n= len(arr)
     start = 0
     end = n - 1
@@ -12,4 +12,4 @@ def ReverseArray(arr,start,end):
 
 # Driver Code
 arr = [5,8,2,44,66]
-print(ReverseArray(arr,0,4))
+print(ReverseArray(arr))

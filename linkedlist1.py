@@ -48,6 +48,8 @@ second=Node(6)
 third = Node(9)
 ll.head.next=second
 second.next = third
+ll.printList()
 ll.insertNode(77,1)
+ll.printList()
 ll.deleteNode(6)
 ll.printList()
